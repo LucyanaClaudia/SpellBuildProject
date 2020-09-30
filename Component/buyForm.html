@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>SpellBuild | Buy Form</title>
+</head>
+<body>
+    <div class="content-buy">
+        <div class="header-background">
+            <div class="headerTitle">
+                SpellBuild
+            </div>
+            <div class="navbar">
+                <a href="../index.html" class="navbar-home">Home</a>
+                <a href="media.html" class="navbar-media">Media</a>
+                <a href="aboutUs.html" class="navbar-aboutUs">About Us</a>
+                <a href="community.html" class="navbar-community">Community</a>
+                <a href="buy.html" class="navbar-buy">Buy</a>
+            </div>
+        </div>
+        <div class="buyForm-background">
+        <form id="form-buy">
+            <input type="text" id="form-fullname" placeholder="Fullname"><br>
+            <input type="text" id="form-email" placeholder="Email"><br>
+            <input type="text" id="form-username" placeholder="Username"><br>
+            <input type="password" id="form-password" placeholder="Password"><br>
+            <input type="password" id="form-rePassword" placeholder="Confirm Password"><br>
+            <input type="radio" id="male" name="form-gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="form-gender" value="female">
+            <label for="female">Female</label><br>
+            <input type="number" id="form-quantity" placeholder="Quantity"><br>
+            <input type="textArea" id="form-address" placeholder="Address"><br>
+            <input type="checkbox" id="form-aggreement" name="form-aggreement" value="Agree">
+            <label for="form-aggreement">I agree to the Terms of Service and I have read the Privacy Policy</label><br>
+            <input type="submit" id="form-submit" value="submit" onclick="return buySpellbreak()">
+        </form>
+        </div>
+        <div class="footer">
+            Copyright &copy; 2020 SpellBuild, All Rights Reserved.
+        </div>
+    </div>
+</body>
+<script src="../Script/script.js"></script>
+</html>

@@ -1,0 +1,665 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header-background{
+    background-image: url("../Assets/background-image/header-background.jpg");
+    padding: 20px;
+}
+
+.headerTitle{
+    color: #FF0000;
+    text-align: center;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+.navbar{
+    margin-top: 15px;
+    text-align: center;
+}
+
+.navbar > a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.footer{
+    background-color: #000000;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 5px;
+}
+
+/*HOME PAGE*/
+
+.home-background{
+    background-image: url("../Assets/background-image/homepage-background.jpg");
+    height: 700px;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.home-welcome-title{
+    border-radius: 5px;
+    background-color: #ffffff;
+    font-size: 45px;
+    font-style: italic;
+    font-weight: bold;
+    opacity: 60%;
+    padding: 5px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(70%, 20%);
+
+}
+
+.home-desc{
+    background-clip: border-box;  
+    background-color: #FF0000;
+    text-align: center;
+    color: #ffffff;
+    height: 100px;
+    justify-content: center;
+}
+
+.home-desc > li{
+    list-style-type: none;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    height: 400px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.home-buy-info{
+    background-color: gray;
+    height: 500px;
+}
+
+.home-buy-info > li{
+    list-style-type: none;
+}
+
+.home-ps4-background{
+    background-color: #FFFFFF;
+    width: 280px;
+    height: 270px;
+    border-radius: 5px;
+    transform: translate(100%, 25%);
+    opacity: 70%;
+}
+
+.home-ps4-image{
+    background-image: url("../Assets/icon-image/PS4.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 210px;
+    height: 140px;
+    transform: translate(14%, 30%);
+}
+
+.home-ps4-title{
+    font-size: 40px;
+    transform: translate(35%,120%);
+}
+
+.home-pc-background{
+    background-color: #FFFFFF;
+    width: 280px;
+    height: 270px;
+    border-radius: 5px;
+    transform: translate(250%, -74%);
+    opacity: 70%;
+}
+
+.home-pc-image{
+    background-image: url("../Assets/icon-image/PC.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 210px;
+    height: 140px;
+    transform: translate(16%, 40%);
+}
+
+.home-pc-title{
+    font-size: 40px;
+    transform: translate(42%,123%);
+}
+
+.home-androidIos-background{
+    background-color: #FFFFFF;
+    width: 280px;
+    height: 270px;
+    border-radius: 5px;
+    transform: translate(400%, -174%);
+    opacity: 70%;
+}
+
+.home-androidIos-image{
+    background-image: url("../Assets/icon-image/And.png"), url("../Assets/icon-image/ios.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: -10px, 90px;
+    width: 210px;
+    height: 140px;
+    transform: translate(15%, 25%);
+}
+
+.home-androidIos-title{
+    font-size: 40px;
+    transform: translate(14%,130%);
+}
+
+.home-buy-list{
+    list-style-type: none;
+    text-align: center;
+}
+
+.home-buy-list > li{
+    display: inline;
+}
+
+.home-ps4{
+    background-image: url("../Assets/icon-image/PS4.png");
+    background-repeat: no-repeat;
+    background-position: 50% 10px;
+}
+
+.home-buy-infobuy{
+    margin-left: 730px;
+    transform: translate(0%, -730%);
+}
+
+.home-buy-info-title{ 
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.home-buy-nav{
+    margin-left: 60px;
+    color: #000000;
+    font-size: 25px;   
+    text-decoration: none;
+}
+
+/*MEDIA PAGE*/
+
+.media-background{
+    background-image: url("../Assets/background-image/media-background.jpg");
+    height: 750px;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+
+.media-image1{
+    background-image: url("../Assets/product-image/media-image1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 450px;
+    height: 250px;
+    transform: translate(40%, 20%);
+}
+
+.media-image2{
+    background-image: url("../Assets/product-image/media-image2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 450px;
+    height: 250px;
+    transform: translate(240%, -80%);
+}
+
+.media-image3{
+    background-image: url("../Assets/product-image/media-image3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 450px;
+    height: 250px;
+    transform: translate(140%, -70%);
+}
+
+/*ABOUT US PAGE*/
+
+.aboutUs-background{
+    background-image: url("../Assets/background-image/aboutus-background.jpg");
+    height: 750px;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    opacity: 95%;
+}
+
+.aboutUs-desc-title{
+    font-weight: bold;
+    font-size: 40px;
+    padding-top: 3rem;
+    padding-left: 30px;
+    color: antiquewhite;
+}
+
+.about-list{
+    list-style-type: none;
+    padding-top: 50px;
+}
+
+.about-list > li > span{
+    font-weight: bold;
+}
+
+.about-list-master{
+    padding-top: 44px;
+    padding-left: 30px;
+    width: 45em;
+    color: antiquewhite;
+}
+
+.about-list-create{
+    width: 45em;
+    color: antiquewhite;
+    transform: translate(110%);
+}
+
+.about-list-choose{
+    padding-left: 30px;
+    color: antiquewhite;
+    width: 45em;
+}
+
+.about-list-become{
+    width: 45em;
+    color: antiquewhite;
+    transform: translate(110%);
+}
+
+
+/*COMMUNITY PAGE*/
+
+.community-background{
+    background-image: url("../Assets/background-image/community-background.jpg");
+    height: 750px;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.community-background > li{
+    list-style-type: none;
+}
+
+.community-sosmed{
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.community-instagram-image{
+    background-image: url(../Assets/icon-image/ig.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    transform: translate(650%, 95%);
+}
+
+.community-youtube-image{
+    background-image: url(../Assets/icon-image/youtube.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    transform: translate(325px, 95%);
+}
+
+.community-facebook-image{
+    background-image: url(../Assets/icon-image/fb.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    transform: translate(325px, 95%);
+}
+
+.community-sosmed{
+    padding-top: 150px;
+}
+
+.community-instagram {
+    font-size: 35px;
+    font-style: italic;
+    padding-left: 400px;
+}
+
+.community-youtube{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 35px;
+    font-style: italic;
+}
+
+.community-facebook{
+    font-size: 35px;
+    font-style: italic;
+}
+
+.community-forum{
+    list-style-type: none;
+    padding-left: 1000px;
+    transform: translate(0%, -150%);
+}
+
+.community-forum-title{
+    font-size: 35px;
+    border-bottom: #FF0000 solid 5px;
+    width: fit-content;
+    margin-top: 330px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.community-forum-subject{
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 10px;
+    margin-left: -15px;
+}
+
+.subject-forum{
+    background-color: transparent;
+    border-top: transparent;
+    border-right: transparent;
+    border-left: transparent;
+    border-bottom-color: #FF0000;
+    width: 300px;
+    height: 30px;
+    margin-left: -15px;
+    margin-top: 10px;
+}
+
+.community-forum-name{
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 10px;
+    margin-left: -15px;
+}
+
+.name-forum{
+    background-color: transparent;
+    border-top: transparent;
+    border-right: transparent;
+    border-left: transparent;
+    border-bottom-color: #FF0000;
+    width: 300px;
+    height: 30px;
+    margin-left: -15px;
+    margin-top: 10px;
+}
+
+.community-forum-message{
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 10px;
+    margin-left: -15px;
+}
+
+.message-forum{
+    background-color: transparent;
+    border-top: transparent;
+    border-right: transparent;
+    border-left: transparent;
+    border-bottom-color: #FF0000;
+    width: 300px;
+    height: 80px;
+    margin-left: -15px;
+    margin-top: 10px;
+}
+
+.submit-forum{
+    margin-top: 25px;
+    background-color: transparent;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    width: 100px;
+    height: 35px;
+    margin-left: 120px;
+}
+
+/* BUY PAGE */
+
+.buy-background{
+    background-image: url("../Assets/background-image/buy-background.jpg");
+    height: 750px;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.buy-chooseOS{
+    list-style-type: none;
+}
+
+.buy-ps4-background{
+    background-color: #FFFFFF;
+    width: 210px;
+    height: 200px;
+    border-radius: 5px;
+    transform: translate(100%, 82%);
+    opacity: 70%;
+}
+
+.buy-ps4-image{
+    background-image: url("../Assets/icon-image/PS4.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 190px;
+    height: 120px;
+    transform: translate(5%, 10%);
+}
+
+.buy-ps4-title{
+    font-size: 30px;
+    transform: translate(36%,95%);
+}
+
+.buy-submit-ps4{
+    border-radius: 15px;
+    width: 70px;
+    height: 25px;
+    transform: translate(394%, 725%);
+}
+
+.buy-pc-background{
+    background-color: #FFFFFF;
+    width: 210px;
+    height: 200px;
+    border-radius: 5px;
+    transform: translate(289%, -29%);
+    opacity: 70%;
+}
+
+.buy-pc-image{
+    background-image: url("../Assets/icon-image/PC.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 190px;
+    height: 120px;
+    transform: translate(3%, 10%);
+}
+
+.buy-pc-title{
+    font-size: 30px;
+    transform: translate(40%,95%);
+}
+
+.buy-submit-pc{
+    border-radius: 15px;
+    width: 70px;
+    height: 25px;
+    transform: translate(965%, -159%);
+}
+
+.buy-androidIos-background{
+    background-color: #FFFFFF;
+    width: 210px;
+    height: 200px;
+    border-radius: 5px;
+    transform: translate(480%, -140%);
+    opacity: 70%;
+}
+
+.buy-androidIos-image{
+    background-image: url("../Assets/icon-image/And.png"), url("../Assets/icon-image/ios.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: -10px, 90px;
+    width: 190px;
+    height: 120px;
+    transform: translate(5%, 10%);
+}
+
+.buy-androidIos-title{
+    font-size: 30px;
+    transform: translate(13%,95%);
+}
+
+.buy-submit-androidIos{
+    border-radius: 15px;
+    width: 70px;
+    height: 25px;
+    transform: translate(1550%, -1050%);
+}
+
+/*BUY FORM PAGE*/
+
+.buyForm-background{
+    background-image: url("../Assets/background-image/buy-background.jpg");
+    height: 750px;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+#form-buy{
+    background-color: #FFFFFF;
+    width: 480px;
+    height: 600px;
+    position: relative;
+    transform: translate(123%, 12%);
+    opacity: 80%;
+}
+
+#form-fullname{
+    margin-left: 33px;
+    height: 35px;
+    width: 410px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+#form-email{
+    margin-left: 33px;
+    height: 35px;
+    width: 410px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#form-username{
+    margin-left: 33px;
+    height: 35px;
+    width: 410px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#form-password{
+    margin-left: 33px;
+    height: 35px;
+    width: 410px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#form-rePassword{
+    margin-left: 33px;
+    height: 35px;
+    width: 410px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#male{
+    margin-left: 170px;
+}
+
+
+#female{
+    margin-bottom: 25px;
+    margin-left: 10px;
+}
+
+#form-quantity{
+    margin-left: 33px;
+    height: 35px;
+    width: 410px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#form-address{
+    margin-left: 33px;
+    height: 55px;
+    width: 410px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#form-aggreement{
+    margin-left: 28px;
+    margin-bottom: 10px;
+}
+
+#form-submit{
+    height: 35px;
+    width: 150px;
+    text-align: center;
+    margin-bottom: 10px;
+    transform: translate(108%);
+}
